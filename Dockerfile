@@ -10,4 +10,6 @@ RUN git clone --depth=1 https://github.com/miurla/morphic /app && \
 
 WORKDIR /app
 
+EXPOSE 3000
+
 CMD ["bun", "dev"]
